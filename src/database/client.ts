@@ -13,7 +13,7 @@ class Connection {
     static async getInstance() {
         if (!Connection.instance) {
             try {
-                const mongo = new MongoClient(process.env.CONNECTION_URI);
+                const mongo = new MongoClient(process!.env!.CONNECTION_URI!);
                 await mongo.connect();
                 Connection.instance = new Connection(mongo);
             } catch (err) {

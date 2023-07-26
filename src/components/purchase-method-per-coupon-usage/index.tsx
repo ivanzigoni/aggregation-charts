@@ -56,7 +56,7 @@ export default function PurchaseMethodPerCouponUsage() {
                 }
 
                 return acc;
-            }, {})
+            }, {} as { [key:string]: { usedCoupon: number, didntUseCoupon: number } })
 
             setRes(serialized)
         })()

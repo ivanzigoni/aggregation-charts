@@ -45,7 +45,7 @@ export default function SatisfactionPerMonth() {
                 borderColor: 'rgb(255, 99, 132)'
             }
         ]
-    } as ChartData<"line">
+    } as unknown as ChartData<"line">
 
     const options = {
         responsive: true,
@@ -58,7 +58,7 @@ export default function SatisfactionPerMonth() {
                 text: 'Average satisfaction per month from every year available',
             },
         },
-    } as ChartOptions<"line">;
+    } as unknown as ChartOptions<"line">;
 
     return (
         <div className={"w-[70vw]"}>
