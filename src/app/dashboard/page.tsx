@@ -11,12 +11,12 @@ export default async function Dashboard() {
         <div className={"flex flex-col items-center"}>
             <header className={"text-center"}>
                 <h2>Welcome</h2>
-                <p>the following are graphs constructed through aggregations run on MongoDB Atlas's sample dataset</p>
+                <p>the following are graphs constructed through aggregations run on MongoDB Atlass sample dataset</p>
                 <p>it uses Chart.js and Next.js</p>
                 <p>components are client side and data is fetched through mongodb driver and exposed through next api routing</p>
                 <p>database: sample_supplies</p>
                 <p>collection: sales</p>
-                <p>altough responsive, best seen on desktop browser</p>
+                <p>although responsive, best seen on desktop browser</p>
             </header>
             <SalesPerMonth />
             <SatisfactionPerGender />
