@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="26153e0a-4494-45a7-979f-1eb2ec45bfdb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/purchase-method-per-coupon-usage/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/purchase-method-per-coupon-usage/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/sales-per-month/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/sales-per-month/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/satisfaction-per-gender/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/satisfaction-per-gender/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/satisfaction-per-month/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/satisfaction-per-month/route.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +71,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690380980319</updated>
-      <workItem from="1690380981349" duration="16817000" />
+      <workItem from="1690380981349" duration="16898000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/api/satisfaction-per-month/route.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,7 +2,7 @@ import {NextRequest, NextResponse} from "next/server";
 import {Connection} from "@/database/client";
 import {salesPerMonth} from "@/database/queries";
 
-export async function GET(req, res) {
+export async function GET() {
 
     const c = await Connection.getInstance()
     const r = await c.aggregate(salesPerMonth) as Document[];
